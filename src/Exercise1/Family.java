@@ -38,7 +38,7 @@ public class Family {
     public void edit(String Name, People people) {
         int indexOfStudent = findByName(Name);
         if (indexOfStudent == -1) {
-            System.out.println("Không có :)))");
+            System.out.println("Không :)))");
         } else {
             this.people.set(indexOfStudent, people);
         }
@@ -47,7 +47,7 @@ public class Family {
     public void delete(String name) {
         int indexOfStudent = findByName(name);
         if (indexOfStudent == -1) {
-            System.out.println("Không có :)))");
+            System.out.println("Không  :)))");
         } else {
             people.remove(indexOfStudent);
         }
